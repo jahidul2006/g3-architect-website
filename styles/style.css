@@ -111,6 +111,35 @@ main > section{
 .text-primary{
     color: rgb(255, 144, 14);
 }
+/* some fact related style */
+.fact{
+    border: 1px solid rgb(255, 144, 14);
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.fact-number{
+    font-size: 2.7rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+.fact-name{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.fact-contant{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+.fact-pera{
+    max-width: 540px;
+}
 
 /* medium device size */
 @media screen  and (min-width: 576px) and (max-width: 992px) {
