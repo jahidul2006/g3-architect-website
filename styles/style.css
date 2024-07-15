@@ -192,6 +192,20 @@ main > section{
     margin-bottom: 0px;
    
 }
+#experience-badge{
+    padding: 45px 42px ;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -70px;
+    margin-top: -110px;
+}
+.ex-text{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.featured-img-contant img{
+    width: 100%;
+}
 
 
 
@@ -200,8 +214,13 @@ main > section{
 
 /* medium device size */
 @media screen  and (min-width: 576px) and (max-width: 992px) {
-    .teams{
+    .teams,
+    .features-main{
         flex-direction: column;
+    }
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
     }
     
  }
@@ -226,7 +245,13 @@ main > section{
         gap: 32px;
         justify-items: center;
      }
-    
+    .features-main{
+        flex-direction: column;
+    }
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
     
 }
  
