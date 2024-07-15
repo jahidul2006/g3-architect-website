@@ -166,8 +166,32 @@ main > section{
 .sponsor-company img{
     filter: grayscale(100%);
 }
+/* feature related style */
 
+#feature-name{
+    border-left: 5px solid rgb(255, 144, 14);
+    padding-left: 20px;
+    
+}
+.features-main{
+    gap: 100px;
+}
+.feature-card{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    margin-bottom: 20px;
+   
+   
+}
 
+.feature-card .feature-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+}
 
 
 
